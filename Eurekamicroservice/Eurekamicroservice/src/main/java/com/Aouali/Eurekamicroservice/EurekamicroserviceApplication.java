@@ -13,5 +13,9 @@ public class EurekamicroserviceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EurekamicroserviceApplication.class, args);
 	}
+	@GetMapping
+	public string hello(){
+		return "hello";
+	}
 
 }
